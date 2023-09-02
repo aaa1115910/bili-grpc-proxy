@@ -1,0 +1,23 @@
+{
+  "name": "bili-grpc-proxy",
+  "description": "bili gRPC api proxy server",
+  "version": "0.1.0",
+  "homepage": "https://github.com/aaa1115910/bili-grpc-proxy",
+  "license": "MIT",
+  "main": "index.js",
+  "author": {
+    "name": "aaa1115910",
+    "url": "https://github.com/aaa1115910"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aaa1115910/bili-grpc-proxy.git"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@grpc/grpc-js": "^1.9.1",
+    "@grpc/proto-loader": "^0.7.9"
+  }
+}
